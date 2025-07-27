@@ -21,8 +21,8 @@ nav {
   top: 0px;
 }
 .logo img {
-  height: 50px;
-  width: 60px;
+  height: 90px;
+  width: 140px;
   padding-left: 20px;
 }
 .sections {
@@ -171,8 +171,8 @@ footer {
 .About-img {
   width: 40%;
   height: auto;
-  padding: 90px 0px;
-  padding-left: 170px;
+  padding: 10px 0px;
+  padding-left: 100px;
 }
 .about h1 {
   font-size: 45px;
@@ -219,6 +219,19 @@ footer {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(255, 244, 244, 0.2);
 }
+.heroSection h1 span {
+  color: rgb(177, 39, 15);
+  font-weight: lighter;
+  font-size: 80px;
+  font-style: italic;
+  
+
+  text-decoration-color: rgb(82, 82, 82);
+
+  text-decoration-thickness: 2px;
+  
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
 .heroSection p {
   text-align: center;
   color: white;
@@ -236,7 +249,7 @@ footer {
 }
 
 .About-img:hover {
-  transform: scale(1.40);
+  transform: scale(1.10);
   transition: transform 0.3s ease;
   cursor: pointer;
 }
